@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Word Guessing Game</h1>
+
+<h2 id="turn">Player 1 Turn</h2>
+
+<input
+id="guessInput"
+placeholder="Enter Guess">
+
+<button onclick="submitGuess()">
+Submit
+</button>
+
+<button onclick="restartGame()">
+New Game
+</button>
+
+<div id="banner"></div>
+
+<h3>Attempts Left:
+<span id="attempts">6</span>
+</h3>
+
+<ul id="history"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
